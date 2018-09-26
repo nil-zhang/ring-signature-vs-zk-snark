@@ -32,7 +32,11 @@ Ring signature 和 zk-snark 在 blockchain 场景都是确保交易私密性和�
 但是增加 ring size 必然增加 transaction 的 size 以及验证时间。
 ring size 为 7 的时候 transaction size 比 ring size 为 5时增加了 1.8%。
 ![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/ringsize2.png)
-ring size 为 7 的时候 verify time 比 ring size 为 5 时 增加了 7.21%。
+ring size 为 7 的时候 verify time 比 ring size 为 5 时 增加了 7.21%。见下表：
+
+|  ring size     | 5     | 7     |
+| ---------- | :-----------:  | :-----------: |
+| verify time     | 71.28 ms     | 76.344 ms     |
 
 ## zk-snark 时空消耗分析
 
