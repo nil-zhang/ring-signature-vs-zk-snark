@@ -38,6 +38,8 @@ ring size 为 7 的时候 verify time 比 ring size 为 5 时 增加了 7.21%。
 | ---------- | :-----------:  | :-----------: |
 | verify time     | 71.28 ms     | 76.344 ms     |
 
+更详细的数据见：[xlsx](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/Strength%20of%20Ring%20Signatures%20with%20Some%20Compromised%20Inputs.xlsx)
+
 ## zk-snark 时空消耗分析
 
 首先看一下 zk-snark 不同版本实现的区别
