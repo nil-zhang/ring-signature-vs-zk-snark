@@ -22,7 +22,7 @@ Ring signature 和 zk-snark 在 blockchain 场景都是确保交易私密性和�
 | ---------- | :-----------:  | :-----------: |
 | TPS     | 6     | 1600     |
 
-## 增加 ring size (decoy) 对 ring signature 的影响
+## 增加 ring size (decoy) 对 ring signature 的影响（Monero 测试数据）
 
 当前 monero 设置的 ring size 是 5，也就是有 4 个 decoy，社区正在考虑将 ring size 增加到 7 或者 11。下面看一下增加 ring size 带来的影响。
 
