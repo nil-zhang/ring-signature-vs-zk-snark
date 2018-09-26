@@ -57,4 +57,4 @@ Proving key 内存消耗为 896MB，verification key 大小为 749B。
 
 而基于 ring signature 实现的 Monero 并不能提供等同于 ZCash 的匿名性，但并不需要一个依赖于信任的 setup 阶段。
 
-基于 RingCT 比 基于 zk-snark 的解决方案有更快的 Generation 和 Verfication，生成交易的耗时在 毫秒 级别；所以更合适在低延迟，而且对交易大小不明感的场景。
+基于 RingCT 的方案 比 基于 zk-snark 的方案有更快的 Generation 和 Verfication，生成交易的耗时在 毫秒 级别；所以更合适在低延迟，而且对交易大小不明感的场景。
