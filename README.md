@@ -34,3 +34,11 @@ ring size 为 7 的时候 transaction size 比 ring size 为 5时增加了 1.8%�
 ![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/ringsize2.png)
 ring size 为 7 的时候 verify time 比 ring size 为 5 时 增加了 7.21%。
 ![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/ringsize3.png)
+
+## zk-snark 时空消耗分析
+
+首先看一下 zk-snark 不同版本实现的区别
+可以看到 zerocash 版本相对于 snark for c 在 key Gen time, Prove time 以及 Verify time 方面都有大幅提升。
+![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/zk-snark%20based%20protocols.png)
+
+
