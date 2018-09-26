@@ -10,3 +10,6 @@ Ring signature 和 zk-snark 在 blockchain 场景都是确保交易私密性和�
 1. Monero with Ring CT 使用 ring signature 来保护发送者隐私，通过 stealth addresses 来保护接受者隐私，而 Pedersen Commitments 可以用来对交易金额做保护。
 2. zcash 则使用 zk-snark 对交易发送方和交易金额做保护，使用stealth addresses 来保护接受者隐私。
 ![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/implementation1.png)
+
+虽然通过多项技术组合都做到了发送方、接收方以及交易金额的保护，但ring signature 方案对发送方的保护强度还是比较有限的。
+![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/implementation2.png)
