@@ -13,3 +13,9 @@ Ring signature 和 zk-snark 在 blockchain 场景都是确保交易私密性和�
 
 虽然通过多项技术组合都做到了发送方、接收方以及交易金额的保护，但ring signature 方案对发送方的保护强度还是比较有限的。
 ![image](https://github.com/nil-zhang/ring-signature-vs-zk-snark/blob/master/images_folder/implementation2.png)
+
+当然 zcash 的方案在性能上相对于 monero(CryptoNote)会有比较大的差距，二者TPS对比如下：
+
+    对比   | zcash     | monero     
+ -------- | :-----------:  | :-----------: 
+ TPS     | 6     | 1600     
